@@ -7,7 +7,14 @@
 #root {
   background-color: rgb(240, 240, 240);
 }
-
+.headerBgColor{
+  background-color: rgba(240, 254, 255, 0.9);
+}
+a.headerText.active.navbar-brand {
+  color: black;
+  font-weight: bold;
+  font-family: arial;
+}
 .link-name {
   text-decoration: none;
   color: white;

@@ -5,10 +5,10 @@ import { Navbar, Container } from 'react-bootstrap';
 const Header = () => {
     return (
         <header>
-            <Navbar bg="dark" variant='dark' expand="lg" collapseOnSelect>
+            <Navbar className=' headerBgColor' variant='dark' expand="lg" collapseOnSelect>
                 <Container>
                     <LinkContainer to="/">
-                        <Navbar.Brand>React Pokédex</Navbar.Brand>
+                        <Navbar.Brand className='headerText'>Pokrmon</Navbar.Brand>
                     </LinkContainer>
                 </Container>
             </Navbar>
